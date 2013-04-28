@@ -29,6 +29,6 @@ var Grossini = cc.Sprite.extend({
     	this.setPositionX(touch.getLocation().x);
     },
     onTouchEnded:function(touch,event){
-    	this.isTouching = false;
+    	this.isTouching = false; 
     },
 });
